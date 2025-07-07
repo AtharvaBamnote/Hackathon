@@ -1,0 +1,30 @@
+# Vehicle Detection System Requirements
+# ==================================
+# Core computer vision and machine learning packages
+
+# Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+
+# YOLO Implementation
+ultralytics>=8.0.0
+
+# Computer Vision
+opencv-python>=4.8.0
+
+# Scientific Computing
+numpy>=1.21.0
+matplotlib>=3.5.0
+
+# Image Processing
+Pillow>=9.0.0
+
+# Utilities
+pathlib2>=2.3.0  # For older Python versions compatibility
+
+# Optional: For improved performance
+# psutil>=5.9.0  # System monitoring
+# tqdm>=4.64.0   # Progress bars (included in ultralytics)
+
+# Development and Testing (optional)
+pytest>=7.0.0
