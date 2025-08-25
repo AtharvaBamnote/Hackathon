@@ -1,0 +1,34 @@
+# 3D Talking Avatar System Requirements
+# Core dependencies for speech processing and web server
+fastapi==0.104.1
+uvicorn==0.24.0
+websockets==11.0.3
+python-multipart==0.0.6
+
+# Speech-to-Text (Vosk)
+vosk==0.3.45
+pyaudio==0.2.11
+wave==0.0.2
+soundfile==1.0.1
+
+# Text-to-Speech (Coqui TTS)
+TTS==0.22.0
+torch==2.1.0
+torchaudio==2.1.0
+
+# Audio processing
+librosa==0.10.1
+numpy==1.24.3
+scipy==1.11.3
+
+# NLP and language processing
+transformers==4.35.2
+langdetect==1.0.9
+
+# Phoneme processing for lip-sync
+phonemizer==3.2.1
+espeak-ng==1.51
+
+# Utilities
+pydantic==2.5.0
+requests==2.31.0

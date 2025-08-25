@@ -1,0 +1,110 @@
+[
+  {
+    "time": 0.0,
+    "viseme": "A",
+    "duration": 0.1,
+    "parameters": {
+      "mouth_open": 0.8,
+      "mouth_width": 0.6,
+      "lip_pucker": 0.0
+    },
+    "description": "Mouth open, like \"ah\"",
+    "original_phoneme": "h"
+  },
+  {
+    "time": 0.1,
+    "viseme": "A",
+    "duration": 0.1,
+    "parameters": {
+      "mouth_open": 0.8,
+      "mouth_width": 0.6,
+      "lip_pucker": 0.0
+    },
+    "description": "Mouth open, like \"ah\"",
+    "original_phoneme": "ə"
+  },
+  {
+    "time": 0.2,
+    "viseme": "L",
+    "duration": 0.1,
+    "parameters": {
+      "mouth_open": 0.3,
+      "mouth_width": 0.6,
+      "lip_pucker": 0.0
+    },
+    "description": "Tongue lateral, like \"l\"",
+    "original_phoneme": "l"
+  },
+  {
+    "time": 0.3,
+    "viseme": "O",
+    "duration": 0.2,
+    "parameters": {
+      "mouth_open": 0.5,
+      "mouth_width": 0.4,
+      "lip_pucker": 0.3
+    },
+    "description": "Mouth round, like \"oh\"",
+    "original_phoneme": "oʊ"
+  },
+  {
+    "time": 0.5,
+    "viseme": "X",
+    "duration": 0.1,
+    "parameters": {
+      "mouth_open": 0.0,
+      "mouth_width": 0.5,
+      "lip_pucker": 0.0
+    },
+    "description": "Mouth closed, neutral position",
+    "original_phoneme": "sil"
+  },
+  {
+    "time": 0.6,
+    "viseme": "W",
+    "duration": 0.1,
+    "parameters": {
+      "mouth_open": 0.2,
+      "mouth_width": 0.3,
+      "lip_pucker": 0.5
+    },
+    "description": "Rounded lips, like \"w\"",
+    "original_phoneme": "w"
+  },
+  {
+    "time": 0.7,
+    "viseme": "A",
+    "duration": 0.1,
+    "parameters": {
+      "mouth_open": 0.8,
+      "mouth_width": 0.6,
+      "lip_pucker": 0.0
+    },
+    "description": "Mouth open, like \"ah\"",
+    "original_phoneme": "ɜ"
+  },
+  {
+    "time": 0.8,
+    "viseme": "L",
+    "duration": 0.1,
+    "parameters": {
+      "mouth_open": 0.3,
+      "mouth_width": 0.6,
+      "lip_pucker": 0.0
+    },
+    "description": "Tongue lateral, like \"l\"",
+    "original_phoneme": "l"
+  },
+  {
+    "time": 0.9,
+    "viseme": "T",
+    "duration": 0.1,
+    "parameters": {
+      "mouth_open": 0.2,
+      "mouth_width": 0.6,
+      "lip_pucker": 0.0
+    },
+    "description": "Tongue tip active, like \"t\", \"d\", \"n\"",
+    "original_phoneme": "d"
+  }
+]

@@ -1,0 +1,244 @@
+{
+  "input_text": "Hello world!",
+  "phoneme_timeline": [
+    {
+      "phoneme": "h",
+      "start_time": 0.0,
+      "end_time": 0.1
+    },
+    {
+      "phoneme": "\u0259",
+      "start_time": 0.1,
+      "end_time": 0.2
+    },
+    {
+      "phoneme": "l",
+      "start_time": 0.2,
+      "end_time": 0.3
+    },
+    {
+      "phoneme": "o\u028a",
+      "start_time": 0.3,
+      "end_time": 0.5
+    },
+    {
+      "phoneme": "sil",
+      "start_time": 0.5,
+      "end_time": 0.6
+    },
+    {
+      "phoneme": "w",
+      "start_time": 0.6,
+      "end_time": 0.7
+    },
+    {
+      "phoneme": "\u025c",
+      "start_time": 0.7,
+      "end_time": 0.8
+    },
+    {
+      "phoneme": "l",
+      "start_time": 0.8,
+      "end_time": 0.9
+    },
+    {
+      "phoneme": "d",
+      "start_time": 0.9,
+      "end_time": 1.0
+    }
+  ],
+  "viseme_timeline": [
+    {
+      "time": 0.0,
+      "viseme": "A",
+      "duration": 0.1,
+      "parameters": {
+        "mouth_open": 0.8,
+        "mouth_width": 0.6,
+        "lip_pucker": 0.0
+      },
+      "description": "open viseme",
+      "original_phoneme": "h"
+    },
+    {
+      "time": 0.1,
+      "viseme": "A",
+      "duration": 0.1,
+      "parameters": {
+        "mouth_open": 0.8,
+        "mouth_width": 0.6,
+        "lip_pucker": 0.0
+      },
+      "description": "open viseme",
+      "original_phoneme": "\u0259"
+    },
+    {
+      "time": 0.2,
+      "viseme": "L",
+      "duration": 0.09999999999999998,
+      "parameters": {
+        "mouth_open": 0.3,
+        "mouth_width": 0.6,
+        "lip_pucker": 0.0
+      },
+      "description": "lateral viseme",
+      "original_phoneme": "l"
+    },
+    {
+      "time": 0.3,
+      "viseme": "O",
+      "duration": 0.2,
+      "parameters": {
+        "mouth_open": 0.5,
+        "mouth_width": 0.4,
+        "lip_pucker": 0.3
+      },
+      "description": "back viseme",
+      "original_phoneme": "o\u028a"
+    },
+    {
+      "time": 0.5,
+      "viseme": "X",
+      "duration": 0.09999999999999998,
+      "parameters": {
+        "mouth_open": 0.0,
+        "mouth_width": 0.5,
+        "lip_pucker": 0.0
+      },
+      "description": "silence viseme",
+      "original_phoneme": "sil"
+    },
+    {
+      "time": 0.6,
+      "viseme": "W",
+      "duration": 0.09999999999999998,
+      "parameters": {
+        "mouth_open": 0.2,
+        "mouth_width": 0.3,
+        "lip_pucker": 0.5
+      },
+      "description": "approximant viseme",
+      "original_phoneme": "w"
+    },
+    {
+      "time": 0.7,
+      "viseme": "A",
+      "duration": 0.10000000000000009,
+      "parameters": {
+        "mouth_open": 0.8,
+        "mouth_width": 0.6,
+        "lip_pucker": 0.0
+      },
+      "description": "open viseme",
+      "original_phoneme": "\u025c"
+    },
+    {
+      "time": 0.8,
+      "viseme": "L",
+      "duration": 0.09999999999999998,
+      "parameters": {
+        "mouth_open": 0.3,
+        "mouth_width": 0.6,
+        "lip_pucker": 0.0
+      },
+      "description": "lateral viseme",
+      "original_phoneme": "l"
+    },
+    {
+      "time": 0.9,
+      "viseme": "T",
+      "duration": 0.09999999999999998,
+      "parameters": {
+        "mouth_open": 0.2,
+        "mouth_width": 0.6,
+        "lip_pucker": 0.0
+      },
+      "description": "tongue_tip viseme",
+      "original_phoneme": "d"
+    }
+  ],
+  "animation_data": {
+    "name": "lip_sync_animation",
+    "duration": 1.0,
+    "tracks": [
+      {
+        "name": "facial.mouth_open",
+        "type": "number",
+        "times": [
+          0.0,
+          0.1,
+          0.2,
+          0.3,
+          0.5,
+          0.6,
+          0.7,
+          0.8,
+          0.9
+        ],
+        "values": [
+          0.8,
+          0.8,
+          0.3,
+          0.5,
+          0.0,
+          0.2,
+          0.8,
+          0.3,
+          0.2
+        ]
+      },
+      {
+        "name": "facial.mouth_width",
+        "type": "number",
+        "times": [
+          0.0,
+          0.1,
+          0.2,
+          0.3,
+          0.5,
+          0.6,
+          0.7,
+          0.8,
+          0.9
+        ],
+        "values": [
+          0.6,
+          0.6,
+          0.6,
+          0.4,
+          0.5,
+          0.3,
+          0.6,
+          0.6,
+          0.6
+        ]
+      },
+      {
+        "name": "facial.lip_pucker",
+        "type": "number",
+        "times": [
+          0.0,
+          0.1,
+          0.2,
+          0.3,
+          0.5,
+          0.6,
+          0.7,
+          0.8,
+          0.9
+        ],
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.3,
+          0.0,
+          0.5,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  }
+}
